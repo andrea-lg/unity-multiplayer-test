@@ -13,6 +13,11 @@ public class SetupLocalCameraPlayer : NetworkBehaviour
             GetComponent<drive>().enabled = true;
             GetComponent<WASDQE>().enabled = true;
             GetComponentInChildren<Camera>().enabled = true;
+            controllerScript[] controllers = GetComponentsInChildren<controllerScript>();
+            foreach (controllerScript obj in controllers)
+            {
+                obj.gameObject.SetActive(true);
+            }
         }
     }
 }
