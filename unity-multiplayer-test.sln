@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unity-multiplayer-test.Plugins", "unity-multiplayer-test.Plugins.csproj", "{4361355B-3691-BC03-16EC-E852D683541D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unity-multiplayer-test", "unity-multiplayer-test.csproj", "{0EFFF668-6043-ABFF-58B9-2E07784388F6}"
